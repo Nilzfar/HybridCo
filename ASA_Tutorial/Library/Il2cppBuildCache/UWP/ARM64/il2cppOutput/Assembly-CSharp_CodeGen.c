@@ -1,0 +1,683 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void AnchorFeedbackScript::Awake()
+extern void AnchorFeedbackScript_Awake_mADCCD20A8F907B9C1F083FC62BA3AADD7F86AC03 (void);
+// 0x00000002 System.Void AnchorFeedbackScript::Start()
+extern void AnchorFeedbackScript_Start_mF73020BB4ED00ADC9217F50EA089A4D13257043E (void);
+// 0x00000003 System.Void AnchorFeedbackScript::AnchorModuleScript_OnStartASASession()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnStartASASession_m09CDC52D317CCBCEA7F5215327441F6B0875A2C4 (void);
+// 0x00000004 System.Void AnchorFeedbackScript::AnchorModuleScript_OnEndASASession()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnEndASASession_mDF38EF4F1B19767DFE73378594FE9F7BEC5B910E (void);
+// 0x00000005 System.Void AnchorFeedbackScript::AnchorModuleScript_OnCreateAnchorStarted()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorStarted_m29FFE18A723950149DB40AB586BEF19FC70DEE91 (void);
+// 0x00000006 System.Void AnchorFeedbackScript::AnchorModuleScript_OnCreateAnchorSucceeded()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorSucceeded_m03AAB0175158D06CAB81B585B608E8B954F82DB2 (void);
+// 0x00000007 System.Void AnchorFeedbackScript::AnchorModuleScript_OnCreateAnchorFailed()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorFailed_m8A63AEE6CA1C353D40DAE24AC13C9D4662B89B78 (void);
+// 0x00000008 System.Void AnchorFeedbackScript::AnchorModuleScript_OnCreateLocalAnchor()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnCreateLocalAnchor_m6C4522E16E301A737DF0708447ADC31B842264D1 (void);
+// 0x00000009 System.Void AnchorFeedbackScript::AnchorModuleScript_OnRemoveLocalAnchor()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnRemoveLocalAnchor_mBBD4915DF9BA5E1E8B2770DA07B9386787ECABEA (void);
+// 0x0000000A System.Void AnchorFeedbackScript::AnchorModuleScript_OnFindASAAnchor()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnFindASAAnchor_m40C0B8DB0CAD2210B829090D148503D71231FDA8 (void);
+// 0x0000000B System.Void AnchorFeedbackScript::AnchorModuleScript_OnASAAnchorLocated()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnASAAnchorLocated_mA87AA5742C4A870A355FECAEAA67BB6797D377D1 (void);
+// 0x0000000C System.Void AnchorFeedbackScript::.ctor()
+extern void AnchorFeedbackScript__ctor_m1448BCE4006B7E1D711878FBD88D660B0A833581 (void);
+// 0x0000000D System.Void AnchorModuleScript::Start()
+extern void AnchorModuleScript_Start_m4C7195CAC0B05A69838BD1AFC105248D4BDDFF32 (void);
+// 0x0000000E System.Void AnchorModuleScript::Update()
+extern void AnchorModuleScript_Update_m0FA9307873815B2A273039F24E7F59885FE2E36B (void);
+// 0x0000000F System.Void AnchorModuleScript::OnDestroy()
+extern void AnchorModuleScript_OnDestroy_mE4438AC524F8A0577E67C70287D41987E544FF4E (void);
+// 0x00000010 System.Void AnchorModuleScript::StartAzureSession()
+extern void AnchorModuleScript_StartAzureSession_mD02E76433C34641660EEC0C87EE8030663E4B65A (void);
+// 0x00000011 System.Void AnchorModuleScript::StopAzureSession()
+extern void AnchorModuleScript_StopAzureSession_m75D9FF2BF8377C5A7CF6B65B53A84435A4279630 (void);
+// 0x00000012 System.Void AnchorModuleScript::CreateAzureAnchor(UnityEngine.GameObject)
+extern void AnchorModuleScript_CreateAzureAnchor_mC489D67663E2FBCD90F3010F19355034910F6B8A (void);
+// 0x00000013 System.Void AnchorModuleScript::RemoveLocalAnchor(UnityEngine.GameObject)
+extern void AnchorModuleScript_RemoveLocalAnchor_m596A47844A1249F6EE8C92B9679CCD074BA2EC38 (void);
+// 0x00000014 System.Void AnchorModuleScript::FindAzureAnchor(System.String)
+extern void AnchorModuleScript_FindAzureAnchor_mF66F0804D695ABFEB03688466BFA38B3691E4D19 (void);
+// 0x00000015 System.Void AnchorModuleScript::DeleteAzureAnchor()
+extern void AnchorModuleScript_DeleteAzureAnchor_mEF8293BE1D3FDBB3EA402D240A4AA1901CD7A989 (void);
+// 0x00000016 System.Void AnchorModuleScript::SaveAzureAnchorIdToDisk()
+extern void AnchorModuleScript_SaveAzureAnchorIdToDisk_m82962B9103B488D6A4DDAC68B656854E96771260 (void);
+// 0x00000017 System.Void AnchorModuleScript::GetAzureAnchorIdFromDisk()
+extern void AnchorModuleScript_GetAzureAnchorIdFromDisk_mF90EE694E2EF9DE06B85DCBACFBE41AB5E9A880C (void);
+// 0x00000018 System.Void AnchorModuleScript::ShareAzureAnchorIdToNetwork()
+extern void AnchorModuleScript_ShareAzureAnchorIdToNetwork_m26A37870C971279FD18D82E590AFFC83FC1363D0 (void);
+// 0x00000019 System.Void AnchorModuleScript::GetAzureAnchorIdFromNetwork()
+extern void AnchorModuleScript_GetAzureAnchorIdFromNetwork_m6A8ACFE293B672C4CF46F11B09D7E44D3F1D0385 (void);
+// 0x0000001A System.Void AnchorModuleScript::CloudManager_AnchorLocated(System.Object,Microsoft.Azure.SpatialAnchors.AnchorLocatedEventArgs)
+extern void AnchorModuleScript_CloudManager_AnchorLocated_mB20D1AFF32F3618A779E33610C477BCD15CE99D8 (void);
+// 0x0000001B System.Void AnchorModuleScript::QueueOnUpdate(System.Action)
+extern void AnchorModuleScript_QueueOnUpdate_m93FCD6D7B268C3EDA8C5ED864AADF82CAEAEBDB8 (void);
+// 0x0000001C System.Collections.IEnumerator AnchorModuleScript::GetSharedAzureAnchorIDCoroutine(System.String)
+extern void AnchorModuleScript_GetSharedAzureAnchorIDCoroutine_m7316FE382192947CCE5844A65A82957FFD9DF13A (void);
+// 0x0000001D System.Void AnchorModuleScript::add_OnStartASASession(AnchorModuleScript/StartASASessionDelegate)
+extern void AnchorModuleScript_add_OnStartASASession_m8778B89D903C221CC1A04F738174B7362116A405 (void);
+// 0x0000001E System.Void AnchorModuleScript::remove_OnStartASASession(AnchorModuleScript/StartASASessionDelegate)
+extern void AnchorModuleScript_remove_OnStartASASession_mEB6083495AC6B1C8F659BE731121225DCEA9F9CB (void);
+// 0x0000001F System.Void AnchorModuleScript::add_OnEndASASession(AnchorModuleScript/EndASASessionDelegate)
+extern void AnchorModuleScript_add_OnEndASASession_m947841E7F316C0D1057846937895C774C55935A8 (void);
+// 0x00000020 System.Void AnchorModuleScript::remove_OnEndASASession(AnchorModuleScript/EndASASessionDelegate)
+extern void AnchorModuleScript_remove_OnEndASASession_mC3787CD48F55E7D496F282C06FD721E93AD91F40 (void);
+// 0x00000021 System.Void AnchorModuleScript::add_OnCreateAnchorStarted(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_add_OnCreateAnchorStarted_m8F0B19E03C5F53707383DA4EB27A13E605380808 (void);
+// 0x00000022 System.Void AnchorModuleScript::remove_OnCreateAnchorStarted(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_remove_OnCreateAnchorStarted_m948C39DB6825F60E097F9CA35B616DA08F8979F0 (void);
+// 0x00000023 System.Void AnchorModuleScript::add_OnCreateAnchorSucceeded(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_add_OnCreateAnchorSucceeded_m7E1093779DC597577DB7AFA426FCF7D23D6C32D6 (void);
+// 0x00000024 System.Void AnchorModuleScript::remove_OnCreateAnchorSucceeded(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_remove_OnCreateAnchorSucceeded_m8955D1D17A41BB165CE4826B8946E5740B51AF1D (void);
+// 0x00000025 System.Void AnchorModuleScript::add_OnCreateAnchorFailed(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_add_OnCreateAnchorFailed_m193002CC79666696AE8D8C8469F384E700F5C3B4 (void);
+// 0x00000026 System.Void AnchorModuleScript::remove_OnCreateAnchorFailed(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_remove_OnCreateAnchorFailed_mE3E1E14F9AD900AC2E04685072851A0C82D58DBF (void);
+// 0x00000027 System.Void AnchorModuleScript::add_OnCreateLocalAnchor(AnchorModuleScript/CreateLocalAnchorDelegate)
+extern void AnchorModuleScript_add_OnCreateLocalAnchor_m5CE31AA1D23819ADD5425521359990998D416A0A (void);
+// 0x00000028 System.Void AnchorModuleScript::remove_OnCreateLocalAnchor(AnchorModuleScript/CreateLocalAnchorDelegate)
+extern void AnchorModuleScript_remove_OnCreateLocalAnchor_m93E2C405090948EE7EA3EFB1FE4C59C067C99D34 (void);
+// 0x00000029 System.Void AnchorModuleScript::add_OnRemoveLocalAnchor(AnchorModuleScript/RemoveLocalAnchorDelegate)
+extern void AnchorModuleScript_add_OnRemoveLocalAnchor_m9A7304DA338AE1BB78465AB7DBA6BA37FF04B006 (void);
+// 0x0000002A System.Void AnchorModuleScript::remove_OnRemoveLocalAnchor(AnchorModuleScript/RemoveLocalAnchorDelegate)
+extern void AnchorModuleScript_remove_OnRemoveLocalAnchor_mB81BC3E867998257DAD1BFB43CD6A08D0C474241 (void);
+// 0x0000002B System.Void AnchorModuleScript::add_OnFindASAAnchor(AnchorModuleScript/FindAnchorDelegate)
+extern void AnchorModuleScript_add_OnFindASAAnchor_m4562E860043443BA76A4EE53169D7D884D740FBD (void);
+// 0x0000002C System.Void AnchorModuleScript::remove_OnFindASAAnchor(AnchorModuleScript/FindAnchorDelegate)
+extern void AnchorModuleScript_remove_OnFindASAAnchor_mBFCBDA7EE6BEDF2A91ED00A0065123C166847739 (void);
+// 0x0000002D System.Void AnchorModuleScript::add_OnASAAnchorLocated(AnchorModuleScript/AnchorLocatedDelegate)
+extern void AnchorModuleScript_add_OnASAAnchorLocated_m986189743B47C02AEB61FEA2D21054ADFC222ED7 (void);
+// 0x0000002E System.Void AnchorModuleScript::remove_OnASAAnchorLocated(AnchorModuleScript/AnchorLocatedDelegate)
+extern void AnchorModuleScript_remove_OnASAAnchorLocated_m3A13ECCA220AC04A5B6D5CE48082B309F4062724 (void);
+// 0x0000002F System.Void AnchorModuleScript::add_OnDeleteASAAnchor(AnchorModuleScript/DeleteASAAnchorDelegate)
+extern void AnchorModuleScript_add_OnDeleteASAAnchor_m83571D6A6F8391E7ADBA07F3CAA4C76E26B5E9D7 (void);
+// 0x00000030 System.Void AnchorModuleScript::remove_OnDeleteASAAnchor(AnchorModuleScript/DeleteASAAnchorDelegate)
+extern void AnchorModuleScript_remove_OnDeleteASAAnchor_m3829D1F38866D0664ED7200F73A851719F6089ED (void);
+// 0x00000031 System.Void AnchorModuleScript::.ctor()
+extern void AnchorModuleScript__ctor_m4D348FC5AB9CEB156CBE01B2FCD03CA226E590E5 (void);
+// 0x00000032 System.Void AnchorModuleScript/StartASASessionDelegate::.ctor(System.Object,System.IntPtr)
+extern void StartASASessionDelegate__ctor_m5FE37D773C637AFEFBDC2F9A024D436698384A9D (void);
+// 0x00000033 System.Void AnchorModuleScript/StartASASessionDelegate::Invoke()
+extern void StartASASessionDelegate_Invoke_m33C6103159FD62EEBAD07E4000CAAE22426A8AA7 (void);
+// 0x00000034 System.IAsyncResult AnchorModuleScript/StartASASessionDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void StartASASessionDelegate_BeginInvoke_mEEF9CAAAE44A90CA4EBDE8005AB23231B5DAEDC4 (void);
+// 0x00000035 System.Void AnchorModuleScript/StartASASessionDelegate::EndInvoke(System.IAsyncResult)
+extern void StartASASessionDelegate_EndInvoke_m1B0F755C462879C671B7E39D9D1C2A8506B1933F (void);
+// 0x00000036 System.Void AnchorModuleScript/EndASASessionDelegate::.ctor(System.Object,System.IntPtr)
+extern void EndASASessionDelegate__ctor_m4F327EB5E20F7E9A8353FE05A678422CA74FF2F0 (void);
+// 0x00000037 System.Void AnchorModuleScript/EndASASessionDelegate::Invoke()
+extern void EndASASessionDelegate_Invoke_m56BE079352B0C8DD9BDD9B5C435B38DD60C6DDBC (void);
+// 0x00000038 System.IAsyncResult AnchorModuleScript/EndASASessionDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void EndASASessionDelegate_BeginInvoke_m891DA69C2A7EA658F62790848983602C7AEE2425 (void);
+// 0x00000039 System.Void AnchorModuleScript/EndASASessionDelegate::EndInvoke(System.IAsyncResult)
+extern void EndASASessionDelegate_EndInvoke_mB3AC7B8A50B64F102F31C5CAF2516C628E000CE4 (void);
+// 0x0000003A System.Void AnchorModuleScript/CreateAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void CreateAnchorDelegate__ctor_mFC0B4E964DE6A9B9DBBC0A85B0A5845A6CC5D5DC (void);
+// 0x0000003B System.Void AnchorModuleScript/CreateAnchorDelegate::Invoke()
+extern void CreateAnchorDelegate_Invoke_m9A7D10E585785A6FA0539220B153C7068C6AF14D (void);
+// 0x0000003C System.IAsyncResult AnchorModuleScript/CreateAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void CreateAnchorDelegate_BeginInvoke_m23C7212C54A6C118B4D906CB15A9685F95A9A5BB (void);
+// 0x0000003D System.Void AnchorModuleScript/CreateAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void CreateAnchorDelegate_EndInvoke_m777E933EA99B29341F4AD9A279E7C4AD615E5F39 (void);
+// 0x0000003E System.Void AnchorModuleScript/CreateLocalAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void CreateLocalAnchorDelegate__ctor_m63B49592980FDC4D4FB2D22C13736D69C52300BB (void);
+// 0x0000003F System.Void AnchorModuleScript/CreateLocalAnchorDelegate::Invoke()
+extern void CreateLocalAnchorDelegate_Invoke_mD43F1A46D81D06C9D54DD43837D2C16720FB8D4E (void);
+// 0x00000040 System.IAsyncResult AnchorModuleScript/CreateLocalAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void CreateLocalAnchorDelegate_BeginInvoke_m922BFDD733B185FFC368D3D9FD38393554C3011D (void);
+// 0x00000041 System.Void AnchorModuleScript/CreateLocalAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void CreateLocalAnchorDelegate_EndInvoke_m3755888A23123804F30D0D84F8F3B76D277EE71B (void);
+// 0x00000042 System.Void AnchorModuleScript/RemoveLocalAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void RemoveLocalAnchorDelegate__ctor_mA7D29F4B6C60FD24CE4B876F2EC61D633C07FC82 (void);
+// 0x00000043 System.Void AnchorModuleScript/RemoveLocalAnchorDelegate::Invoke()
+extern void RemoveLocalAnchorDelegate_Invoke_m12B105913A660DF468F9BD96D954438318921F62 (void);
+// 0x00000044 System.IAsyncResult AnchorModuleScript/RemoveLocalAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void RemoveLocalAnchorDelegate_BeginInvoke_m28B55434A32B8D738BBF2DD4CBFB769ED1E9A9BF (void);
+// 0x00000045 System.Void AnchorModuleScript/RemoveLocalAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void RemoveLocalAnchorDelegate_EndInvoke_m536BF8FE6F3F6EA7BEE7A70D156E8398887DE640 (void);
+// 0x00000046 System.Void AnchorModuleScript/FindAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void FindAnchorDelegate__ctor_m4466C5B271B37661D0F69D9795010F33D653B574 (void);
+// 0x00000047 System.Void AnchorModuleScript/FindAnchorDelegate::Invoke()
+extern void FindAnchorDelegate_Invoke_m37FA49AA24645B806D586D9ECC5CDDA302C9F674 (void);
+// 0x00000048 System.IAsyncResult AnchorModuleScript/FindAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void FindAnchorDelegate_BeginInvoke_m72E72A2FA317FC66C0FC65BA44F181DCDB50DACC (void);
+// 0x00000049 System.Void AnchorModuleScript/FindAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void FindAnchorDelegate_EndInvoke_m08D806667EF6963FAE772517C83CA3C7ACD8691F (void);
+// 0x0000004A System.Void AnchorModuleScript/AnchorLocatedDelegate::.ctor(System.Object,System.IntPtr)
+extern void AnchorLocatedDelegate__ctor_mC786452C317931C86377BE39F4E9CBE601931907 (void);
+// 0x0000004B System.Void AnchorModuleScript/AnchorLocatedDelegate::Invoke()
+extern void AnchorLocatedDelegate_Invoke_m80B917D4D0E4FD96BAC11844716654F843FD5027 (void);
+// 0x0000004C System.IAsyncResult AnchorModuleScript/AnchorLocatedDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void AnchorLocatedDelegate_BeginInvoke_m475CC38DAF7CA9142C9A7A2EC677D406AE74C83E (void);
+// 0x0000004D System.Void AnchorModuleScript/AnchorLocatedDelegate::EndInvoke(System.IAsyncResult)
+extern void AnchorLocatedDelegate_EndInvoke_m6370422EA9981034D8D24194D5888354A2B3CE6C (void);
+// 0x0000004E System.Void AnchorModuleScript/DeleteASAAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void DeleteASAAnchorDelegate__ctor_m42856B17EEA220538DEFB418C334AFD0FE6211C2 (void);
+// 0x0000004F System.Void AnchorModuleScript/DeleteASAAnchorDelegate::Invoke()
+extern void DeleteASAAnchorDelegate_Invoke_mC05133EB627BD3D29AF877AC33BD6D2371459E97 (void);
+// 0x00000050 System.IAsyncResult AnchorModuleScript/DeleteASAAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void DeleteASAAnchorDelegate_BeginInvoke_m9AB8097E831F7FF61C4DE1CDEBB5DDD2E6FC53B7 (void);
+// 0x00000051 System.Void AnchorModuleScript/DeleteASAAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void DeleteASAAnchorDelegate_EndInvoke_mAC0E833ACCA2E87927F2EB25957A911D54A0583F (void);
+// 0x00000052 System.Void AnchorModuleScript/<StartAzureSession>d__10::.ctor()
+extern void U3CStartAzureSessionU3Ed__10__ctor_m3E6AF7D5A626BA27530575130E129ECF92301A0F (void);
+// 0x00000053 System.Void AnchorModuleScript/<StartAzureSession>d__10::MoveNext()
+extern void U3CStartAzureSessionU3Ed__10_MoveNext_mF68A253FD9DD657C4A022DA6433E25AFA60440A9 (void);
+// 0x00000054 System.Void AnchorModuleScript/<StartAzureSession>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartAzureSessionU3Ed__10_SetStateMachine_mB06FA1998BA99AFE432B000DF969802CDDD4BE27 (void);
+// 0x00000055 System.Void AnchorModuleScript/<StopAzureSession>d__11::.ctor()
+extern void U3CStopAzureSessionU3Ed__11__ctor_m2BE3798D9BCF9CD5058336A0B3637D754DBBB447 (void);
+// 0x00000056 System.Void AnchorModuleScript/<StopAzureSession>d__11::MoveNext()
+extern void U3CStopAzureSessionU3Ed__11_MoveNext_m7F00FB5C373D1394A1C9696DE95D9339F94D8CFF (void);
+// 0x00000057 System.Void AnchorModuleScript/<StopAzureSession>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStopAzureSessionU3Ed__11_SetStateMachine_m22770F019F8BEE6FDDE4691843098D01BE90937B (void);
+// 0x00000058 System.Void AnchorModuleScript/<>c__DisplayClass12_0::.ctor()
+extern void U3CU3Ec__DisplayClass12_0__ctor_m2F926B4FE3838BF967E9A37486FC3AA0B34AB165 (void);
+// 0x00000059 System.Void AnchorModuleScript/<>c__DisplayClass12_0::<CreateAzureAnchor>b__0()
+extern void U3CU3Ec__DisplayClass12_0_U3CCreateAzureAnchorU3Eb__0_m09E288D4DE4EFC4084CA474FC7AD4FB3CED579F1 (void);
+// 0x0000005A System.Void AnchorModuleScript/<CreateAzureAnchor>d__12::.ctor()
+extern void U3CCreateAzureAnchorU3Ed__12__ctor_m358D1DAC22ADCF345FC4A8131BFD8A1CC3C1B273 (void);
+// 0x0000005B System.Void AnchorModuleScript/<CreateAzureAnchor>d__12::MoveNext()
+extern void U3CCreateAzureAnchorU3Ed__12_MoveNext_mE0FBBF950BF5BD404568B48D7060EA943316E0BF (void);
+// 0x0000005C System.Void AnchorModuleScript/<CreateAzureAnchor>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCreateAzureAnchorU3Ed__12_SetStateMachine_m2F6147AC59568AD25857BE794E3CE981B77681A9 (void);
+// 0x0000005D System.Void AnchorModuleScript/<DeleteAzureAnchor>d__15::.ctor()
+extern void U3CDeleteAzureAnchorU3Ed__15__ctor_mC5CADA462ED03CFDD4C85E109504A1F7B4CA72ED (void);
+// 0x0000005E System.Void AnchorModuleScript/<DeleteAzureAnchor>d__15::MoveNext()
+extern void U3CDeleteAzureAnchorU3Ed__15_MoveNext_mDCAAFD672DA427E6CD8D91FE81CEBF2F3506F928 (void);
+// 0x0000005F System.Void AnchorModuleScript/<DeleteAzureAnchor>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CDeleteAzureAnchorU3Ed__15_SetStateMachine_mD62E104606B230A634274065E949F06E3271332A (void);
+// 0x00000060 System.Void AnchorModuleScript/<>c__DisplayClass20_0::.ctor()
+extern void U3CU3Ec__DisplayClass20_0__ctor_mF05E597839B2FD403C522BB94E286EC8B9812752 (void);
+// 0x00000061 System.Void AnchorModuleScript/<>c__DisplayClass20_0::<CloudManager_AnchorLocated>b__1()
+extern void U3CU3Ec__DisplayClass20_0_U3CCloudManager_AnchorLocatedU3Eb__1_m89053E9780B645ED2C7116E5446F2CE9C4DE62A5 (void);
+// 0x00000062 System.Void AnchorModuleScript/<>c__DisplayClass20_0::<CloudManager_AnchorLocated>b__2()
+extern void U3CU3Ec__DisplayClass20_0_U3CCloudManager_AnchorLocatedU3Eb__2_mD1593CDE0D6392181E7ACF9DA901BFFBBB04E57C (void);
+// 0x00000063 System.Void AnchorModuleScript/<>c::.cctor()
+extern void U3CU3Ec__cctor_mA863B96121AAE53EF9B943E4BA7979336E86BB23 (void);
+// 0x00000064 System.Void AnchorModuleScript/<>c::.ctor()
+extern void U3CU3Ec__ctor_m45DEDAB90A19AF5C2B64B12DDAE9FCDF07CD1D2E (void);
+// 0x00000065 System.Void AnchorModuleScript/<>c::<CloudManager_AnchorLocated>b__20_0()
+extern void U3CU3Ec_U3CCloudManager_AnchorLocatedU3Eb__20_0_m204C1FB44B3D42DEB68E314D871B70A1F2D08C57 (void);
+// 0x00000066 System.Void AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::.ctor(System.Int32)
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22__ctor_m1334799758B1033DC57BCDFEDD9842BFDF47D4F7 (void);
+// 0x00000067 System.Void AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::System.IDisposable.Dispose()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_IDisposable_Dispose_mEAD56108756F7838F9EED16DE0D881407E1237D1 (void);
+// 0x00000068 System.Boolean AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::MoveNext()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_MoveNext_m5936E330B23BCBED815159A8A55DCE2F76445C09 (void);
+// 0x00000069 System.Void AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::<>m__Finally1()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_U3CU3Em__Finally1_m4F23935428B806C5909C996C74EC5151E23C7A82 (void);
+// 0x0000006A System.Object AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m472EC885E464F193246EEC1258826B7641493788 (void);
+// 0x0000006B System.Void AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::System.Collections.IEnumerator.Reset()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_IEnumerator_Reset_mC62937EC46E82A117A1BAD3A213D0AFFC74BB250 (void);
+// 0x0000006C System.Object AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::System.Collections.IEnumerator.get_Current()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_IEnumerator_get_Current_m139435B50DB2D37168E2635AC57171A0AADB52A2 (void);
+// 0x0000006D System.Void MRTK.Tutorials.GettingStarted.DirectionalIndicatorController::OnBecameInvisible()
+extern void DirectionalIndicatorController_OnBecameInvisible_m0E4A338FC4C70E296D1B8286AA2FD9E833D947C2 (void);
+// 0x0000006E System.Void MRTK.Tutorials.GettingStarted.DirectionalIndicatorController::.ctor()
+extern void DirectionalIndicatorController__ctor_mD5EA1948C4529FAFD1E496942ADAFBEC7E4A8018 (void);
+// 0x0000006F System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::set_IsPunEnabled(System.Boolean)
+extern void ExplodeViewController_set_IsPunEnabled_mF24170F7F9A608F7414FFF2ABF39EE706BC434F5 (void);
+// 0x00000070 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::Start()
+extern void ExplodeViewController_Start_mE07825796104C61B74ED0AD2D5A5CC38E0BAAE6D (void);
+// 0x00000071 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::Update()
+extern void ExplodeViewController_Update_mC1FADA194292F3EBAE4E56B1AE64EB407E87F2F8 (void);
+// 0x00000072 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::ToggleExplodedView()
+extern void ExplodeViewController_ToggleExplodedView_m74189DE87897AB5232FA72B72753903F85952972 (void);
+// 0x00000073 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::Toggle()
+extern void ExplodeViewController_Toggle_m321B6176A1D390111076B1919CC2E44D6DB7E5E2 (void);
+// 0x00000074 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::add_OnToggleExplodedView(MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate)
+extern void ExplodeViewController_add_OnToggleExplodedView_mA25D0A8E94652AC021B35E5C2591EFB4A65EFAE0 (void);
+// 0x00000075 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::remove_OnToggleExplodedView(MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate)
+extern void ExplodeViewController_remove_OnToggleExplodedView_mF561824B96EAA8FD7770BEA6265349C3A65B8ECA (void);
+// 0x00000076 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController::.ctor()
+extern void ExplodeViewController__ctor_mE72637A87DA07F869CC7C9FD74591AE0C8F60176 (void);
+// 0x00000077 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExplodeViewControllerDelegate__ctor_m6DFCEE099C96781241186B1537B313641CC3A8AB (void);
+// 0x00000078 System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate::Invoke()
+extern void ExplodeViewControllerDelegate_Invoke_mEC016D4928ADCA613702B28C1E3378F7EC29B58C (void);
+// 0x00000079 System.IAsyncResult MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void ExplodeViewControllerDelegate_BeginInvoke_m458C786F225088793798F9A79882A606822BD0B9 (void);
+// 0x0000007A System.Void MRTK.Tutorials.GettingStarted.ExplodeViewController/ExplodeViewControllerDelegate::EndInvoke(System.IAsyncResult)
+extern void ExplodeViewControllerDelegate_EndInvoke_m1190D2F43012408A716B9FC790DEB913A85D9476 (void);
+// 0x0000007B System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::set_IsPunEnabled(System.Boolean)
+extern void PartAssemblyController_set_IsPunEnabled_m87E32D7952387591F37EC578D7850CCF1CCE4D55 (void);
+// 0x0000007C System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::Start()
+extern void PartAssemblyController_Start_m76EEAA396C555EFAC8E6EA60B32B1E7380570CE7 (void);
+// 0x0000007D System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::SetPlacement()
+extern void PartAssemblyController_SetPlacement_mB6BDE1A16F74DF3B4950483F7C58E3201B0A0851 (void);
+// 0x0000007E System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::Set()
+extern void PartAssemblyController_Set_m77CC9BC1F649F4F08C89FD060E2C74C4F45C91FD (void);
+// 0x0000007F System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::ResetPlacement()
+extern void PartAssemblyController_ResetPlacement_m7FA91500780C316EBF560CECD7078E559460ACD0 (void);
+// 0x00000080 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::Reset()
+extern void PartAssemblyController_Reset_m129940529723E9498D4E5035FB917610DA5C8981 (void);
+// 0x00000081 System.Collections.IEnumerator MRTK.Tutorials.GettingStarted.PartAssemblyController::CheckPlacement()
+extern void PartAssemblyController_CheckPlacement_m058EC3FBCB6313D9C85FF551A4831601805F5A4D (void);
+// 0x00000082 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::add_OnResetPlacement(MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate)
+extern void PartAssemblyController_add_OnResetPlacement_m1B5F77146056299BFF14210549A8A71139406319 (void);
+// 0x00000083 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::remove_OnResetPlacement(MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate)
+extern void PartAssemblyController_remove_OnResetPlacement_mDDD37DC93CE99FCE605DFCB9CBC37413364E0D03 (void);
+// 0x00000084 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::add_OnSetPlacement(MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate)
+extern void PartAssemblyController_add_OnSetPlacement_m5B9ED392DAD16C5B23E31DDEF213CFC470C8D1B6 (void);
+// 0x00000085 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::remove_OnSetPlacement(MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate)
+extern void PartAssemblyController_remove_OnSetPlacement_mA87246A60289C2E7B03E07D5248B7FFE9E533E3B (void);
+// 0x00000086 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController::.ctor()
+extern void PartAssemblyController__ctor_m43D020771B20D09433D17616C90F0D19569F9D9E (void);
+// 0x00000087 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate::.ctor(System.Object,System.IntPtr)
+extern void PartAssemblyControllerDelegate__ctor_m1B455F877BBF4D8B34BAA0778ABFA1B0C8FB3C87 (void);
+// 0x00000088 System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate::Invoke()
+extern void PartAssemblyControllerDelegate_Invoke_m35EC047435BEF3AC833FE7F6FDED12C1D2FAF2F9 (void);
+// 0x00000089 System.IAsyncResult MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void PartAssemblyControllerDelegate_BeginInvoke_mE2B0F86102E0D5E6BCD5ADDF6FE25CC9FC8A06D2 (void);
+// 0x0000008A System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/PartAssemblyControllerDelegate::EndInvoke(System.IAsyncResult)
+extern void PartAssemblyControllerDelegate_EndInvoke_m3BC4B8B7B165CE27C98FCB26D91E4E7004F5DA92 (void);
+// 0x0000008B System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::.ctor(System.Int32)
+extern void U3CCheckPlacementU3Ed__25__ctor_m1AE9DAAD6457E2BA3C8AF018FC38B348AEEAFD35 (void);
+// 0x0000008C System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::System.IDisposable.Dispose()
+extern void U3CCheckPlacementU3Ed__25_System_IDisposable_Dispose_m5F0CAD7B8EEB902CEC60BA6283E5D2176899ECD0 (void);
+// 0x0000008D System.Boolean MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::MoveNext()
+extern void U3CCheckPlacementU3Ed__25_MoveNext_mDF7F144AFC4007613EFED9BAC836382AE491AD0A (void);
+// 0x0000008E System.Object MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckPlacementU3Ed__25_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA2770AE4D2AC80980A1982783D11A2A481D1F5AD (void);
+// 0x0000008F System.Void MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::System.Collections.IEnumerator.Reset()
+extern void U3CCheckPlacementU3Ed__25_System_Collections_IEnumerator_Reset_m3B06BF13F7C5A5FD0544E0A77EF07BF84BEB6237 (void);
+// 0x00000090 System.Object MRTK.Tutorials.GettingStarted.PartAssemblyController/<CheckPlacement>d__25::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckPlacementU3Ed__25_System_Collections_IEnumerator_get_Current_mF23A2B08C5CAD169D0663319DCDF005B7BF30371 (void);
+// 0x00000091 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::set_IsPunEnabled(System.Boolean)
+extern void PlacementHintsController_set_IsPunEnabled_m3F5768D83A150962864A1DF4E4A041A75E006B00 (void);
+// 0x00000092 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::Start()
+extern void PlacementHintsController_Start_mA284074B6E1D6E5C2EFEE25ED73B92718FD44DA5 (void);
+// 0x00000093 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::TogglePlacementHints()
+extern void PlacementHintsController_TogglePlacementHints_mC6E69154176B5D87ECC700CC21DDF3AE3B79F0A9 (void);
+// 0x00000094 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::Toggle()
+extern void PlacementHintsController_Toggle_mED247D0E903D8499BE48BC9C0DF2EC3B94F3494B (void);
+// 0x00000095 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::add_OnTogglePlacementHints(MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate)
+extern void PlacementHintsController_add_OnTogglePlacementHints_m74DE84CC6DD60CCD720BFB6797EFA9C145A040D8 (void);
+// 0x00000096 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::remove_OnTogglePlacementHints(MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate)
+extern void PlacementHintsController_remove_OnTogglePlacementHints_m4DD9666380C389D70F6B9B9DA474147403E890E9 (void);
+// 0x00000097 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController::.ctor()
+extern void PlacementHintsController__ctor_m63F5AE600226FB6BEACE406120A542B3EB796634 (void);
+// 0x00000098 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate::.ctor(System.Object,System.IntPtr)
+extern void PlacementHintsControllerDelegate__ctor_mC6033B0A83C28817C35AC67DB8440C7B75CA605B (void);
+// 0x00000099 System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate::Invoke()
+extern void PlacementHintsControllerDelegate_Invoke_mD8415531C38108E1B7B41AB3C5BE9ED938DE5BAA (void);
+// 0x0000009A System.IAsyncResult MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void PlacementHintsControllerDelegate_BeginInvoke_m729BAD5B777CAC07017B397546C8485D026C1672 (void);
+// 0x0000009B System.Void MRTK.Tutorials.GettingStarted.PlacementHintsController/PlacementHintsControllerDelegate::EndInvoke(System.IAsyncResult)
+extern void PlacementHintsControllerDelegate_EndInvoke_m5245DC13168B9F203E7495622C99EA9C6EC60327 (void);
+// 0x0000009C System.Void MRTK.Tutorials.AzureSpatialAnchors.DebugWindow::Start()
+extern void DebugWindow_Start_m2334740E2322C7C82AA636CE781FAB04BD247810 (void);
+// 0x0000009D System.Void MRTK.Tutorials.AzureSpatialAnchors.DebugWindow::OnDestroy()
+extern void DebugWindow_OnDestroy_m3CDCF208F055CEC885C1B9C8DDD193B0FEC21C3A (void);
+// 0x0000009E System.Void MRTK.Tutorials.AzureSpatialAnchors.DebugWindow::HandleLog(System.String,System.String,UnityEngine.LogType)
+extern void DebugWindow_HandleLog_mD43FC4350FBB35FF214E131D814F5CE876C87C94 (void);
+// 0x0000009F System.Void MRTK.Tutorials.AzureSpatialAnchors.DebugWindow::.ctor()
+extern void DebugWindow__ctor_m9550AB4F4E778C73F9DF1AA199897711B16CE3EB (void);
+// 0x000000A0 System.Void MRTK.Tutorials.AzureSpatialAnchors.DisableDiagnosticsSystem::.ctor()
+extern void DisableDiagnosticsSystem__ctor_m3984E3A03BA655981991FB0D7693F5F9AD9A5D21 (void);
+static Il2CppMethodPointer s_methodPointers[160] = 
+{
+	AnchorFeedbackScript_Awake_mADCCD20A8F907B9C1F083FC62BA3AADD7F86AC03,
+	AnchorFeedbackScript_Start_mF73020BB4ED00ADC9217F50EA089A4D13257043E,
+	AnchorFeedbackScript_AnchorModuleScript_OnStartASASession_m09CDC52D317CCBCEA7F5215327441F6B0875A2C4,
+	AnchorFeedbackScript_AnchorModuleScript_OnEndASASession_mDF38EF4F1B19767DFE73378594FE9F7BEC5B910E,
+	AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorStarted_m29FFE18A723950149DB40AB586BEF19FC70DEE91,
+	AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorSucceeded_m03AAB0175158D06CAB81B585B608E8B954F82DB2,
+	AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorFailed_m8A63AEE6CA1C353D40DAE24AC13C9D4662B89B78,
+	AnchorFeedbackScript_AnchorModuleScript_OnCreateLocalAnchor_m6C4522E16E301A737DF0708447ADC31B842264D1,
+	AnchorFeedbackScript_AnchorModuleScript_OnRemoveLocalAnchor_mBBD4915DF9BA5E1E8B2770DA07B9386787ECABEA,
+	AnchorFeedbackScript_AnchorModuleScript_OnFindASAAnchor_m40C0B8DB0CAD2210B829090D148503D71231FDA8,
+	AnchorFeedbackScript_AnchorModuleScript_OnASAAnchorLocated_mA87AA5742C4A870A355FECAEAA67BB6797D377D1,
+	AnchorFeedbackScript__ctor_m1448BCE4006B7E1D711878FBD88D660B0A833581,
+	AnchorModuleScript_Start_m4C7195CAC0B05A69838BD1AFC105248D4BDDFF32,
+	AnchorModuleScript_Update_m0FA9307873815B2A273039F24E7F59885FE2E36B,
+	AnchorModuleScript_OnDestroy_mE4438AC524F8A0577E67C70287D41987E544FF4E,
+	AnchorModuleScript_StartAzureSession_mD02E76433C34641660EEC0C87EE8030663E4B65A,
+	AnchorModuleScript_StopAzureSession_m75D9FF2BF8377C5A7CF6B65B53A84435A4279630,
+	AnchorModuleScript_CreateAzureAnchor_mC489D67663E2FBCD90F3010F19355034910F6B8A,
+	AnchorModuleScript_RemoveLocalAnchor_m596A47844A1249F6EE8C92B9679CCD074BA2EC38,
+	AnchorModuleScript_FindAzureAnchor_mF66F0804D695ABFEB03688466BFA38B3691E4D19,
+	AnchorModuleScript_DeleteAzureAnchor_mEF8293BE1D3FDBB3EA402D240A4AA1901CD7A989,
+	AnchorModuleScript_SaveAzureAnchorIdToDisk_m82962B9103B488D6A4DDAC68B656854E96771260,
+	AnchorModuleScript_GetAzureAnchorIdFromDisk_mF90EE694E2EF9DE06B85DCBACFBE41AB5E9A880C,
+	AnchorModuleScript_ShareAzureAnchorIdToNetwork_m26A37870C971279FD18D82E590AFFC83FC1363D0,
+	AnchorModuleScript_GetAzureAnchorIdFromNetwork_m6A8ACFE293B672C4CF46F11B09D7E44D3F1D0385,
+	AnchorModuleScript_CloudManager_AnchorLocated_mB20D1AFF32F3618A779E33610C477BCD15CE99D8,
+	AnchorModuleScript_QueueOnUpdate_m93FCD6D7B268C3EDA8C5ED864AADF82CAEAEBDB8,
+	AnchorModuleScript_GetSharedAzureAnchorIDCoroutine_m7316FE382192947CCE5844A65A82957FFD9DF13A,
+	AnchorModuleScript_add_OnStartASASession_m8778B89D903C221CC1A04F738174B7362116A405,
+	AnchorModuleScript_remove_OnStartASASession_mEB6083495AC6B1C8F659BE731121225DCEA9F9CB,
+	AnchorModuleScript_add_OnEndASASession_m947841E7F316C0D1057846937895C774C55935A8,
+	AnchorModuleScript_remove_OnEndASASession_mC3787CD48F55E7D496F282C06FD721E93AD91F40,
+	AnchorModuleScript_add_OnCreateAnchorStarted_m8F0B19E03C5F53707383DA4EB27A13E605380808,
+	AnchorModuleScript_remove_OnCreateAnchorStarted_m948C39DB6825F60E097F9CA35B616DA08F8979F0,
+	AnchorModuleScript_add_OnCreateAnchorSucceeded_m7E1093779DC597577DB7AFA426FCF7D23D6C32D6,
+	AnchorModuleScript_remove_OnCreateAnchorSucceeded_m8955D1D17A41BB165CE4826B8946E5740B51AF1D,
+	AnchorModuleScript_add_OnCreateAnchorFailed_m193002CC79666696AE8D8C8469F384E700F5C3B4,
+	AnchorModuleScript_remove_OnCreateAnchorFailed_mE3E1E14F9AD900AC2E04685072851A0C82D58DBF,
+	AnchorModuleScript_add_OnCreateLocalAnchor_m5CE31AA1D23819ADD5425521359990998D416A0A,
+	AnchorModuleScript_remove_OnCreateLocalAnchor_m93E2C405090948EE7EA3EFB1FE4C59C067C99D34,
+	AnchorModuleScript_add_OnRemoveLocalAnchor_m9A7304DA338AE1BB78465AB7DBA6BA37FF04B006,
+	AnchorModuleScript_remove_OnRemoveLocalAnchor_mB81BC3E867998257DAD1BFB43CD6A08D0C474241,
+	AnchorModuleScript_add_OnFindASAAnchor_m4562E860043443BA76A4EE53169D7D884D740FBD,
+	AnchorModuleScript_remove_OnFindASAAnchor_mBFCBDA7EE6BEDF2A91ED00A0065123C166847739,
+	AnchorModuleScript_add_OnASAAnchorLocated_m986189743B47C02AEB61FEA2D21054ADFC222ED7,
+	AnchorModuleScript_remove_OnASAAnchorLocated_m3A13ECCA220AC04A5B6D5CE48082B309F4062724,
+	AnchorModuleScript_add_OnDeleteASAAnchor_m83571D6A6F8391E7ADBA07F3CAA4C76E26B5E9D7,
+	AnchorModuleScript_remove_OnDeleteASAAnchor_m3829D1F38866D0664ED7200F73A851719F6089ED,
+	AnchorModuleScript__ctor_m4D348FC5AB9CEB156CBE01B2FCD03CA226E590E5,
+	StartASASessionDelegate__ctor_m5FE37D773C637AFEFBDC2F9A024D436698384A9D,
+	StartASASessionDelegate_Invoke_m33C6103159FD62EEBAD07E4000CAAE22426A8AA7,
+	StartASASessionDelegate_BeginInvoke_mEEF9CAAAE44A90CA4EBDE8005AB23231B5DAEDC4,
+	StartASASessionDelegate_EndInvoke_m1B0F755C462879C671B7E39D9D1C2A8506B1933F,
+	EndASASessionDelegate__ctor_m4F327EB5E20F7E9A8353FE05A678422CA74FF2F0,
+	EndASASessionDelegate_Invoke_m56BE079352B0C8DD9BDD9B5C435B38DD60C6DDBC,
+	EndASASessionDelegate_BeginInvoke_m891DA69C2A7EA658F62790848983602C7AEE2425,
+	EndASASessionDelegate_EndInvoke_mB3AC7B8A50B64F102F31C5CAF2516C628E000CE4,
+	CreateAnchorDelegate__ctor_mFC0B4E964DE6A9B9DBBC0A85B0A5845A6CC5D5DC,
+	CreateAnchorDelegate_Invoke_m9A7D10E585785A6FA0539220B153C7068C6AF14D,
+	CreateAnchorDelegate_BeginInvoke_m23C7212C54A6C118B4D906CB15A9685F95A9A5BB,
+	CreateAnchorDelegate_EndInvoke_m777E933EA99B29341F4AD9A279E7C4AD615E5F39,
+	CreateLocalAnchorDelegate__ctor_m63B49592980FDC4D4FB2D22C13736D69C52300BB,
+	CreateLocalAnchorDelegate_Invoke_mD43F1A46D81D06C9D54DD43837D2C16720FB8D4E,
+	CreateLocalAnchorDelegate_BeginInvoke_m922BFDD733B185FFC368D3D9FD38393554C3011D,
+	CreateLocalAnchorDelegate_EndInvoke_m3755888A23123804F30D0D84F8F3B76D277EE71B,
+	RemoveLocalAnchorDelegate__ctor_mA7D29F4B6C60FD24CE4B876F2EC61D633C07FC82,
+	RemoveLocalAnchorDelegate_Invoke_m12B105913A660DF468F9BD96D954438318921F62,
+	RemoveLocalAnchorDelegate_BeginInvoke_m28B55434A32B8D738BBF2DD4CBFB769ED1E9A9BF,
+	RemoveLocalAnchorDelegate_EndInvoke_m536BF8FE6F3F6EA7BEE7A70D156E8398887DE640,
+	FindAnchorDelegate__ctor_m4466C5B271B37661D0F69D9795010F33D653B574,
+	FindAnchorDelegate_Invoke_m37FA49AA24645B806D586D9ECC5CDDA302C9F674,
+	FindAnchorDelegate_BeginInvoke_m72E72A2FA317FC66C0FC65BA44F181DCDB50DACC,
+	FindAnchorDelegate_EndInvoke_m08D806667EF6963FAE772517C83CA3C7ACD8691F,
+	AnchorLocatedDelegate__ctor_mC786452C317931C86377BE39F4E9CBE601931907,
+	AnchorLocatedDelegate_Invoke_m80B917D4D0E4FD96BAC11844716654F843FD5027,
+	AnchorLocatedDelegate_BeginInvoke_m475CC38DAF7CA9142C9A7A2EC677D406AE74C83E,
+	AnchorLocatedDelegate_EndInvoke_m6370422EA9981034D8D24194D5888354A2B3CE6C,
+	DeleteASAAnchorDelegate__ctor_m42856B17EEA220538DEFB418C334AFD0FE6211C2,
+	DeleteASAAnchorDelegate_Invoke_mC05133EB627BD3D29AF877AC33BD6D2371459E97,
+	DeleteASAAnchorDelegate_BeginInvoke_m9AB8097E831F7FF61C4DE1CDEBB5DDD2E6FC53B7,
+	DeleteASAAnchorDelegate_EndInvoke_mAC0E833ACCA2E87927F2EB25957A911D54A0583F,
+	U3CStartAzureSessionU3Ed__10__ctor_m3E6AF7D5A626BA27530575130E129ECF92301A0F,
+	U3CStartAzureSessionU3Ed__10_MoveNext_mF68A253FD9DD657C4A022DA6433E25AFA60440A9,
+	U3CStartAzureSessionU3Ed__10_SetStateMachine_mB06FA1998BA99AFE432B000DF969802CDDD4BE27,
+	U3CStopAzureSessionU3Ed__11__ctor_m2BE3798D9BCF9CD5058336A0B3637D754DBBB447,
+	U3CStopAzureSessionU3Ed__11_MoveNext_m7F00FB5C373D1394A1C9696DE95D9339F94D8CFF,
+	U3CStopAzureSessionU3Ed__11_SetStateMachine_m22770F019F8BEE6FDDE4691843098D01BE90937B,
+	U3CU3Ec__DisplayClass12_0__ctor_m2F926B4FE3838BF967E9A37486FC3AA0B34AB165,
+	U3CU3Ec__DisplayClass12_0_U3CCreateAzureAnchorU3Eb__0_m09E288D4DE4EFC4084CA474FC7AD4FB3CED579F1,
+	U3CCreateAzureAnchorU3Ed__12__ctor_m358D1DAC22ADCF345FC4A8131BFD8A1CC3C1B273,
+	U3CCreateAzureAnchorU3Ed__12_MoveNext_mE0FBBF950BF5BD404568B48D7060EA943316E0BF,
+	U3CCreateAzureAnchorU3Ed__12_SetStateMachine_m2F6147AC59568AD25857BE794E3CE981B77681A9,
+	U3CDeleteAzureAnchorU3Ed__15__ctor_mC5CADA462ED03CFDD4C85E109504A1F7B4CA72ED,
+	U3CDeleteAzureAnchorU3Ed__15_MoveNext_mDCAAFD672DA427E6CD8D91FE81CEBF2F3506F928,
+	U3CDeleteAzureAnchorU3Ed__15_SetStateMachine_mD62E104606B230A634274065E949F06E3271332A,
+	U3CU3Ec__DisplayClass20_0__ctor_mF05E597839B2FD403C522BB94E286EC8B9812752,
+	U3CU3Ec__DisplayClass20_0_U3CCloudManager_AnchorLocatedU3Eb__1_m89053E9780B645ED2C7116E5446F2CE9C4DE62A5,
+	U3CU3Ec__DisplayClass20_0_U3CCloudManager_AnchorLocatedU3Eb__2_mD1593CDE0D6392181E7ACF9DA901BFFBBB04E57C,
+	U3CU3Ec__cctor_mA863B96121AAE53EF9B943E4BA7979336E86BB23,
+	U3CU3Ec__ctor_m45DEDAB90A19AF5C2B64B12DDAE9FCDF07CD1D2E,
+	U3CU3Ec_U3CCloudManager_AnchorLocatedU3Eb__20_0_m204C1FB44B3D42DEB68E314D871B70A1F2D08C57,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22__ctor_m1334799758B1033DC57BCDFEDD9842BFDF47D4F7,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_IDisposable_Dispose_mEAD56108756F7838F9EED16DE0D881407E1237D1,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_MoveNext_m5936E330B23BCBED815159A8A55DCE2F76445C09,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_U3CU3Em__Finally1_m4F23935428B806C5909C996C74EC5151E23C7A82,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m472EC885E464F193246EEC1258826B7641493788,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_IEnumerator_Reset_mC62937EC46E82A117A1BAD3A213D0AFFC74BB250,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_IEnumerator_get_Current_m139435B50DB2D37168E2635AC57171A0AADB52A2,
+	DirectionalIndicatorController_OnBecameInvisible_m0E4A338FC4C70E296D1B8286AA2FD9E833D947C2,
+	DirectionalIndicatorController__ctor_mD5EA1948C4529FAFD1E496942ADAFBEC7E4A8018,
+	ExplodeViewController_set_IsPunEnabled_mF24170F7F9A608F7414FFF2ABF39EE706BC434F5,
+	ExplodeViewController_Start_mE07825796104C61B74ED0AD2D5A5CC38E0BAAE6D,
+	ExplodeViewController_Update_mC1FADA194292F3EBAE4E56B1AE64EB407E87F2F8,
+	ExplodeViewController_ToggleExplodedView_m74189DE87897AB5232FA72B72753903F85952972,
+	ExplodeViewController_Toggle_m321B6176A1D390111076B1919CC2E44D6DB7E5E2,
+	ExplodeViewController_add_OnToggleExplodedView_mA25D0A8E94652AC021B35E5C2591EFB4A65EFAE0,
+	ExplodeViewController_remove_OnToggleExplodedView_mF561824B96EAA8FD7770BEA6265349C3A65B8ECA,
+	ExplodeViewController__ctor_mE72637A87DA07F869CC7C9FD74591AE0C8F60176,
+	ExplodeViewControllerDelegate__ctor_m6DFCEE099C96781241186B1537B313641CC3A8AB,
+	ExplodeViewControllerDelegate_Invoke_mEC016D4928ADCA613702B28C1E3378F7EC29B58C,
+	ExplodeViewControllerDelegate_BeginInvoke_m458C786F225088793798F9A79882A606822BD0B9,
+	ExplodeViewControllerDelegate_EndInvoke_m1190D2F43012408A716B9FC790DEB913A85D9476,
+	PartAssemblyController_set_IsPunEnabled_m87E32D7952387591F37EC578D7850CCF1CCE4D55,
+	PartAssemblyController_Start_m76EEAA396C555EFAC8E6EA60B32B1E7380570CE7,
+	PartAssemblyController_SetPlacement_mB6BDE1A16F74DF3B4950483F7C58E3201B0A0851,
+	PartAssemblyController_Set_m77CC9BC1F649F4F08C89FD060E2C74C4F45C91FD,
+	PartAssemblyController_ResetPlacement_m7FA91500780C316EBF560CECD7078E559460ACD0,
+	PartAssemblyController_Reset_m129940529723E9498D4E5035FB917610DA5C8981,
+	PartAssemblyController_CheckPlacement_m058EC3FBCB6313D9C85FF551A4831601805F5A4D,
+	PartAssemblyController_add_OnResetPlacement_m1B5F77146056299BFF14210549A8A71139406319,
+	PartAssemblyController_remove_OnResetPlacement_mDDD37DC93CE99FCE605DFCB9CBC37413364E0D03,
+	PartAssemblyController_add_OnSetPlacement_m5B9ED392DAD16C5B23E31DDEF213CFC470C8D1B6,
+	PartAssemblyController_remove_OnSetPlacement_mA87246A60289C2E7B03E07D5248B7FFE9E533E3B,
+	PartAssemblyController__ctor_m43D020771B20D09433D17616C90F0D19569F9D9E,
+	PartAssemblyControllerDelegate__ctor_m1B455F877BBF4D8B34BAA0778ABFA1B0C8FB3C87,
+	PartAssemblyControllerDelegate_Invoke_m35EC047435BEF3AC833FE7F6FDED12C1D2FAF2F9,
+	PartAssemblyControllerDelegate_BeginInvoke_mE2B0F86102E0D5E6BCD5ADDF6FE25CC9FC8A06D2,
+	PartAssemblyControllerDelegate_EndInvoke_m3BC4B8B7B165CE27C98FCB26D91E4E7004F5DA92,
+	U3CCheckPlacementU3Ed__25__ctor_m1AE9DAAD6457E2BA3C8AF018FC38B348AEEAFD35,
+	U3CCheckPlacementU3Ed__25_System_IDisposable_Dispose_m5F0CAD7B8EEB902CEC60BA6283E5D2176899ECD0,
+	U3CCheckPlacementU3Ed__25_MoveNext_mDF7F144AFC4007613EFED9BAC836382AE491AD0A,
+	U3CCheckPlacementU3Ed__25_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA2770AE4D2AC80980A1982783D11A2A481D1F5AD,
+	U3CCheckPlacementU3Ed__25_System_Collections_IEnumerator_Reset_m3B06BF13F7C5A5FD0544E0A77EF07BF84BEB6237,
+	U3CCheckPlacementU3Ed__25_System_Collections_IEnumerator_get_Current_mF23A2B08C5CAD169D0663319DCDF005B7BF30371,
+	PlacementHintsController_set_IsPunEnabled_m3F5768D83A150962864A1DF4E4A041A75E006B00,
+	PlacementHintsController_Start_mA284074B6E1D6E5C2EFEE25ED73B92718FD44DA5,
+	PlacementHintsController_TogglePlacementHints_mC6E69154176B5D87ECC700CC21DDF3AE3B79F0A9,
+	PlacementHintsController_Toggle_mED247D0E903D8499BE48BC9C0DF2EC3B94F3494B,
+	PlacementHintsController_add_OnTogglePlacementHints_m74DE84CC6DD60CCD720BFB6797EFA9C145A040D8,
+	PlacementHintsController_remove_OnTogglePlacementHints_m4DD9666380C389D70F6B9B9DA474147403E890E9,
+	PlacementHintsController__ctor_m63F5AE600226FB6BEACE406120A542B3EB796634,
+	PlacementHintsControllerDelegate__ctor_mC6033B0A83C28817C35AC67DB8440C7B75CA605B,
+	PlacementHintsControllerDelegate_Invoke_mD8415531C38108E1B7B41AB3C5BE9ED938DE5BAA,
+	PlacementHintsControllerDelegate_BeginInvoke_m729BAD5B777CAC07017B397546C8485D026C1672,
+	PlacementHintsControllerDelegate_EndInvoke_m5245DC13168B9F203E7495622C99EA9C6EC60327,
+	DebugWindow_Start_m2334740E2322C7C82AA636CE781FAB04BD247810,
+	DebugWindow_OnDestroy_m3CDCF208F055CEC885C1B9C8DDD193B0FEC21C3A,
+	DebugWindow_HandleLog_mD43FC4350FBB35FF214E131D814F5CE876C87C94,
+	DebugWindow__ctor_m9550AB4F4E778C73F9DF1AA199897711B16CE3EB,
+	DisableDiagnosticsSystem__ctor_m3984E3A03BA655981991FB0D7693F5F9AD9A5D21,
+};
+static const int32_t s_InvokerIndices[160] = 
+{
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	4990,
+	4990,
+	4990,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	2780,
+	4990,
+	4383,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	4990,
+	6132,
+	2776,
+	6132,
+	2216,
+	4990,
+	2776,
+	6132,
+	2216,
+	4990,
+	2776,
+	6132,
+	2216,
+	4990,
+	2776,
+	6132,
+	2216,
+	4990,
+	2776,
+	6132,
+	2216,
+	4990,
+	2776,
+	6132,
+	2216,
+	4990,
+	2776,
+	6132,
+	2216,
+	4990,
+	2776,
+	6132,
+	2216,
+	4990,
+	6132,
+	6132,
+	4990,
+	6132,
+	6132,
+	4990,
+	6132,
+	6132,
+	6132,
+	6132,
+	4990,
+	6132,
+	6132,
+	4990,
+	6132,
+	6132,
+	6132,
+	9093,
+	6132,
+	6132,
+	4952,
+	6132,
+	5915,
+	6132,
+	6030,
+	6132,
+	6030,
+	6132,
+	6132,
+	4873,
+	6132,
+	6132,
+	6132,
+	6132,
+	4990,
+	4990,
+	6132,
+	2776,
+	6132,
+	2216,
+	4990,
+	4873,
+	6132,
+	6132,
+	6132,
+	6132,
+	6132,
+	6030,
+	4990,
+	4990,
+	4990,
+	4990,
+	6132,
+	2776,
+	6132,
+	2216,
+	4990,
+	4952,
+	6132,
+	5915,
+	6030,
+	6132,
+	6030,
+	4873,
+	6132,
+	6132,
+	6132,
+	4990,
+	4990,
+	6132,
+	2776,
+	6132,
+	2216,
+	4990,
+	6132,
+	6132,
+	1554,
+	6132,
+	6132,
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	160,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_AssemblyU2DCSharp_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

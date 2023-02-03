@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.microsoft.mixedreality.openxr": {
+      "tarball": {
+        "hash": "9a2b5b85553b",
+        "mtime": 1672068606041,
+        "size": 12029211,
+        "localPath": "C:\\Users\\ramez\\Documents\\Master topics\\unity\\ASA_Tutorial\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.7.0.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.foundation": {
+      "tarball": {
+        "hash": "f2323a9b7aec",
+        "mtime": 1672068603557,
+        "size": 11691469,
+        "localPath": "C:\\Users\\ramez\\Documents\\Master topics\\unity\\ASA_Tutorial\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.foundation-2.8.3.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.standardassets": {
+      "tarball": {
+        "hash": "aab256284dc6",
+        "mtime": 1672068601218,
+        "size": 5328617,
+        "localPath": "C:\\Users\\ramez\\Documents\\Master topics\\unity\\ASA_Tutorial\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.standardassets-2.8.3.tgz"
+      }
+    },
+    "com.microsoft.azure.object-anchors.runtime": {
+      "tarball": {
+        "hash": "d31c8fc15289",
+        "mtime": 1674079521622,
+        "size": 11705284,
+        "localPath": "C:\\Users\\ramez\\Documents\\Master topics\\unity\\ASA_Tutorial\\Packages\\MixedReality\\com.microsoft.azure.object-anchors.runtime-0.25.0.tgz"
+      }
+    },
+    "com.microsoft.azure.spatial-anchors-sdk.windows": {
+      "tarball": {
+        "hash": "4bce2833f5cd",
+        "mtime": 1673215233373,
+        "size": 18372076,
+        "localPath": "C:\\Users\\ramez\\Documents\\Master topics\\unity\\ASA_Tutorial\\Packages\\MixedReality\\com.microsoft.azure.spatial-anchors-sdk.windows-2.13.3.tgz"
+      }
+    },
+    "com.microsoft.azure.spatial-anchors-sdk.core": {
+      "tarball": {
+        "hash": "fc109db5a78b",
+        "mtime": 1673215229153,
+        "size": 84498,
+        "localPath": "C:\\Users\\ramez\\Documents\\Master topics\\unity\\ASA_Tutorial\\Packages\\MixedReality\\com.microsoft.azure.spatial-anchors-sdk.core-2.13.3.tgz"
+      }
+    }
+  }
+}
