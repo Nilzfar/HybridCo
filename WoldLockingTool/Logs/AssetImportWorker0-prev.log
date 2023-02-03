@@ -1,0 +1,549 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.2486; Version 2009; 64bit' Language: 'en' Physical Memory: 15774 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ramez/Documents/Master topics/unity/MixedReality-WorldLockingTools-Samples/Advanced/ASA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56474
+Successfully changed project path to: C:/Users/ramez/Documents/Master topics/unity/MixedReality-WorldLockingTools-Samples/Advanced/ASA
+C:/Users/ramez/Documents/Master topics/unity/MixedReality-WorldLockingTools-Samples/Advanced/ASA
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.28 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ramez/Documents/Master topics/unity/MixedReality-WorldLockingTools-Samples/Advanced/ASA/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   
+    VRAM:     8044 MB
+    Driver:   30.0.14.7151
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002005 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.92 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.15 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[XR] Error loading subsystem: Display (1) (header mismatch?)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.525 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.7 MB.
+System memory in use after: 167.0 MB.
+
+Unloading 1990 unused Assets to reduce memory usage. Loaded Objects now: 3725.
+Total: 5.448100 ms (FindLiveObjects: 0.491100 ms CreateObjectMapping: 0.297700 ms MarkObjects: 2.489200 ms  DeleteObjects: 2.169200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/WorldLocking.Tools/Prefabs/SpongyAnchorSimple.prefab
+  artifactKey: Guid(ee5df711dcd3e54429c57b3e7e573afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.Tools/Prefabs/SpongyAnchorSimple.prefab using Guid(ee5df711dcd3e54429c57b3e7e573afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd975f0dd8f19934ab6440c8d21deca') in 0.111692 seconds
+  Import took 0.116670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/XR/Settings/OpenXR Package Settings.asset
+  artifactKey: Guid(51d4fe15e099ddf4789abd63984898f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(51d4fe15e099ddf4789abd63984898f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8537cfd7c32167332e758c5ba289d58') in 0.009305 seconds
+  Import took 0.014339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/WorldLocking.Tools/Prefabs/FrozenAnchorSimple.prefab
+  artifactKey: Guid(ab6671261c0c306459e7e7604e4b3278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.Tools/Prefabs/FrozenAnchorSimple.prefab using Guid(ab6671261c0c306459e7e7604e4b3278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf47f651a5a7c89f12a29c2c5a3ff53') in 0.011250 seconds
+  Import took 0.016843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/WorldLocking.Tools/Prefabs/SpongyAnchorVisual.prefab
+  artifactKey: Guid(b5ba1fa0f254af640a17dc22e4688b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.Tools/Prefabs/SpongyAnchorVisual.prefab using Guid(b5ba1fa0f254af640a17dc22e4688b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6554e5f5b9eb3bd5d7cd1de2ec0e26') in 0.176001 seconds
+  Import took 0.181076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/MRTK/Services/DiagnosticsSystem/Materials/DiagnosticsInstancedColored.mat
+  artifactKey: Guid(5b6fc83077d74fd4ca4c675623942a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Services/DiagnosticsSystem/Materials/DiagnosticsInstancedColored.mat using Guid(5b6fc83077d74fd4ca4c675623942a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8ad4c777de4d81e3f1fbdc4f0fa116') in 0.056276 seconds
+  Import took 0.061107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Materials/PanContent.mat
+  artifactKey: Guid(a6066557d0b74ca4f8c1b9bc571e33e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Materials/PanContent.mat using Guid(a6066557d0b74ca4f8c1b9bc571e33e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95487d076eea574c00a7b2108168bc8f') in 0.067014 seconds
+  Import took 0.071748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/WorldLocking.Tools/Prefabs/AnchorGraphVisual.prefab
+  artifactKey: Guid(d2fea6b6d80fd104ba370eec2ee4184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.Tools/Prefabs/AnchorGraphVisual.prefab using Guid(d2fea6b6d80fd104ba370eec2ee4184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62660c39a1995a22601ba1a590f52fd2') in 0.013638 seconds
+  Import took 0.018863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/WorldLocking.ASA/Prefabs/AnchorPrefab.prefab
+  artifactKey: Guid(345e9bf0df4b89442ac19a2d898daf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA/Prefabs/AnchorPrefab.prefab using Guid(345e9bf0df4b89442ac19a2d898daf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ff2c72c8bd2c13c67c6e1d7615d8b7') in 0.045055 seconds
+  Import took 0.049912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/WorldLocking.Tools/Prefabs/FrozenAnchorVisual.prefab
+  artifactKey: Guid(d47affea335f196479d4ec680aca4223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.Tools/Prefabs/FrozenAnchorVisual.prefab using Guid(d47affea335f196479d4ec680aca4223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0431dd3e487af71315e7b91fc8060732') in 0.009311 seconds
+  Import took 0.014795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.753076 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealitySceneSystemProfile.asset
+  artifactKey: Guid(069efa41032a317409790a6a08435311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealitySceneSystemProfile.asset using Guid(069efa41032a317409790a6a08435311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0798b110dba0f738ae13deca338bd37b') in 0.006362 seconds
+  Import took 0.011604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Prefabs/SceneDescriptionPanelRev.prefab
+  artifactKey: Guid(18470d71939382448be2ecd06efa9662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Prefabs/SceneDescriptionPanelRev.prefab using Guid(18470d71939382448be2ecd06efa9662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08758434be1db3a5ffcf1982a6cb8db') in 0.289401 seconds
+  Import took 0.295088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/MRTK/Services/SceneSystem/MRTK.SceneSystem.asmdef
+  artifactKey: Guid(f72be350965fec445b124b4bf4284f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Services/SceneSystem/MRTK.SceneSystem.asmdef using Guid(f72be350965fec445b124b4bf4284f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cea51ba13be3b4c342660c9a17e271b') in 0.006861 seconds
+  Import took 0.011657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/MRTK/Tools/RuntimeTools/StandardAssets/Prefabs/SceneDescriptionPanel.prefab
+  artifactKey: Guid(4f4e45632f741eb49a4c265afc815789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Tools/RuntimeTools/StandardAssets/Prefabs/SceneDescriptionPanel.prefab using Guid(4f4e45632f741eb49a4c265afc815789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7619e44e51ed8feccae0293cc8c0ba0e') in 0.103957 seconds
+  Import took 0.109456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/MRTK/Providers/Experimental/WindowsSceneUnderstanding/Profiles/DefaultSceneUnderstandingObserverProfile.asset
+  artifactKey: Guid(1ce015d87321ac7458f2f259a7e1aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Providers/Experimental/WindowsSceneUnderstanding/Profiles/DefaultSceneUnderstandingObserverProfile.asset using Guid(1ce015d87321ac7458f2f259a7e1aaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbf74b8939e9cd49c2ec156a622e191') in 0.006461 seconds
+  Import took 0.011017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.538892 seconds.
+  path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultLightingScene.unity
+  artifactKey: Guid(7e54e36c44f826c438c95da79f8de638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultLightingScene.unity using Guid(7e54e36c44f826c438c95da79f8de638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573fca6229837bc065041862841fd01d') in 0.005668 seconds
+  Import took 0.010683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001162 seconds.
+  path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultLightingScene.unity
+  artifactKey: Guid(7e54e36c44f826c438c95da79f8de638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultLightingScene.unity using Guid(7e54e36c44f826c438c95da79f8de638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573fca6229837bc065041862841fd01d') in 0.002246 seconds
+  Import took 0.007360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.901971 seconds.
+  path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultManagerScene.unity
+  artifactKey: Guid(ae7bb08d297fb69408695d8de0962524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultManagerScene.unity using Guid(ae7bb08d297fb69408695d8de0962524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69c88cdc71e61fd198ab8768923be53') in 0.007243 seconds
+  Import took 0.013081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.919522 seconds.
+  path: Assets/MRTK/Core/Utilities/SceneContent
+  artifactKey: Guid(1d28643ce183b934a90b97519ef45785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Core/Utilities/SceneContent using Guid(1d28643ce183b934a90b97519ef45785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd4acb61a0ce4e67b8242a416096c98') in 0.007383 seconds
+  Import took 0.014785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.030865 seconds.
+  path: Assets/MRTK/Core/Utilities/SceneContent/MixedRealitySceneContent.cs
+  artifactKey: Guid(c65c9dd2f312b8d41b8849d58e1053fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Core/Utilities/SceneContent/MixedRealitySceneContent.cs using Guid(c65c9dd2f312b8d41b8849d58e1053fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19e3a5584c37ed9cce5ba2c053c9f47') in 0.012787 seconds
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016636 seconds.
+  path: Assets/MRTK/Core/Utilities/SceneContent/MixedRealitySceneContent.cs
+  artifactKey: Guid(c65c9dd2f312b8d41b8849d58e1053fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Core/Utilities/SceneContent/MixedRealitySceneContent.cs using Guid(c65c9dd2f312b8d41b8849d58e1053fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19e3a5584c37ed9cce5ba2c053c9f47') in 0.002100 seconds
+  Import took 0.007337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.230528 seconds.
+  path: Assets/WorldLocking.Examples/Prefabs/MeasureingBeam9m.prefab
+  artifactKey: Guid(2b2f70bdd03fc834aab4532f0fc3d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.Examples/Prefabs/MeasureingBeam9m.prefab using Guid(2b2f70bdd03fc834aab4532f0fc3d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dddb5c97691b6db2e1d5d4ec8a4cceb') in 0.121529 seconds
+  Import took 0.127100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/WorldLocking.Examples/Prefabs/MeasureingBeam30m.prefab
+  artifactKey: Guid(19c27115c68a6a84883593f65dd6a1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.Examples/Prefabs/MeasureingBeam30m.prefab using Guid(19c27115c68a6a84883593f65dd6a1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942e29a5936a4f272b0b421510c33d75') in 0.017903 seconds
+  Import took 0.023503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.265391 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Prefabs/Slate/Slate.prefab
+  artifactKey: Guid(937ce507dd7ee334ba569554e24adbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Prefabs/Slate/Slate.prefab using Guid(937ce507dd7ee334ba569554e24adbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05c7e76468dcb731f7e9553386af400') in 0.053359 seconds
+  Import took 0.059363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Gray.mat
+  artifactKey: Guid(835cb4a58f172d7478801db95e510f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Gray.mat using Guid(835cb4a58f172d7478801db95e510f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052fdeebf235a04cd8189f6d6053aa3a') in 0.010563 seconds
+  Import took 0.015509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Sprites/DefaultIconsSpriteSheet.psd
+  artifactKey: Guid(20f25674b9512834f88938d45ed495d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Sprites/DefaultIconsSpriteSheet.psd using Guid(20f25674b9512834f88938d45ed495d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2d85c009963f2f610d9f696342fadb') in 0.055000 seconds
+  Import took 0.059730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Profiles/Dwell/DwellProfileWithDecay.asset
+  artifactKey: Guid(64a7207a42b2440428db96879a6bb283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Profiles/Dwell/DwellProfileWithDecay.asset using Guid(64a7207a42b2440428db96879a6bb283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a579d7d2864445858bcedd77b9bbe0') in 0.005811 seconds
+  Import took 0.010640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Volumetric/BoxDisplayConfiguration_HoloLens2_Volumetric.asset
+  artifactKey: Guid(c2b8a0ee1166d2f43a8acffd135b182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Volumetric/BoxDisplayConfiguration_HoloLens2_Volumetric.asset using Guid(c2b8a0ee1166d2f43a8acffd135b182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be7b1f9f9676884fd07a772f48105e2') in 0.007068 seconds
+  Import took 0.012425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonSeeItSayItLabel-Simple.asset
+  artifactKey: Guid(6a4ada4b285469047946e8662531da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonSeeItSayItLabel-Simple.asset using Guid(6a4ada4b285469047946e8662531da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ec5ddb949f37faaca47f7d66d2d28d') in 0.007294 seconds
+  Import took 0.012178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/BoxDisplayConfiguration_HoloLens2_Slate.asset
+  artifactKey: Guid(dda36b069f5139e44998995a0e25fbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/BoxDisplayConfiguration_HoloLens2_Slate.asset using Guid(dda36b069f5139e44998995a0e25fbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5ee52b91785ccc0f90682e9bddbb8e') in 0.007373 seconds
+  Import took 0.012616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonSeeItSayItLabel.asset
+  artifactKey: Guid(0c4c73f326f602744bdcfff481fd6f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Themes/HolographicButtonSeeItSayItLabel.asset using Guid(0c4c73f326f602744bdcfff481fd6f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4323241aefb4e6f22b65422aac845d7f') in 0.007140 seconds
+  Import took 0.012168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Textures/IconHandRay.png
+  artifactKey: Guid(b7ebc1af93ceaba48aed1e572edc6a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Textures/IconHandRay.png using Guid(b7ebc1af93ceaba48aed1e572edc6a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0be72d73073d280c2c885d19fa4640a') in 0.014855 seconds
+  Import took 0.020104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_DarkGray.mat
+  artifactKey: Guid(f40914b49f8741e39df5b08d3db15497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_DarkGray.mat using Guid(f40914b49f8741e39df5b08d3db15497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b745295e3ee0beb0fb22c61cf881d9f6') in 0.014190 seconds
+  Import took 0.019463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_LightGray.mat
+  artifactKey: Guid(d5334c45caee46be937b095a1e977dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_LightGray.mat using Guid(d5334c45caee46be937b095a1e977dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55ce5af1fd976c92998ebafb469e502') in 0.070711 seconds
+  Import took 0.076376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandRay.mat
+  artifactKey: Guid(bd7c74df0032a844d80ddbb18c426143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandRay.mat using Guid(bd7c74df0032a844d80ddbb18c426143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438e038ad4863dadd6bc695484a66426') in 0.045888 seconds
+  Import took 0.051257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/WorldLocking.Examples/Prefabs/FeelerRays.prefab
+  artifactKey: Guid(498c830c5e5604e44b3788a7f47a4392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.Examples/Prefabs/FeelerRays.prefab using Guid(498c830c5e5604e44b3788a7f47a4392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e296f29501d084cbdaf2e223baca36da') in 0.019119 seconds
+  Import took 0.025741 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.4 MB.
+System memory in use after: 163.4 MB.
+
+Unloading 2095 unused Assets to reduce memory usage. Loaded Objects now: 3872.
+Total: 4.851800 ms (FindLiveObjects: 0.432800 ms CreateObjectMapping: 0.138700 ms MarkObjects: 2.307000 ms  DeleteObjects: 1.972500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 455.388055 seconds.
+  path: Assets/AzureSpatialAnchors.SDK
+  artifactKey: Guid(c7efb0797d381544db06b6483c58fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.SDK using Guid(c7efb0797d381544db06b6483c58fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ea78386dd1dffda776399bf19ae52c') in 0.012158 seconds
+  Import took 0.017815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.725995 seconds.
+  path: Assets/AzureSpatialAnchors.SDK/Resources
+  artifactKey: Guid(aefaa9671a648c946861cb1e422d16f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.SDK/Resources using Guid(aefaa9671a648c946861cb1e422d16f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f57410bc0a77b00f11a362f3453b6b0') in 0.005834 seconds
+  Import took 0.011727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067343 seconds.
+  path: Assets/AzureSpatialAnchors.SDK/Resources/SpatialAnchorConfig.asset
+  artifactKey: Guid(5e7b1652be0a8eb47854b0531f9a4465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.SDK/Resources/SpatialAnchorConfig.asset using Guid(5e7b1652be0a8eb47854b0531f9a4465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab64e00119652a1045ac31cb6e09d64') in 0.012583 seconds
+  Import took 0.018247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 611.546323 seconds.
+  path: Assets/WorldLocking.ASA/Scripts/PublisherASA.cs
+  artifactKey: Guid(0825dc151bc239742b524ab845c3cf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA/Scripts/PublisherASA.cs using Guid(0825dc151bc239742b524ab845c3cf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5553c93f41400bd61903230ec85b40') in 0.005538 seconds
+  Import took 0.011728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001184 seconds.
+  path: Assets/WorldLocking.ASA/Scripts/PublisherASA.cs
+  artifactKey: Guid(0825dc151bc239742b524ab845c3cf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA/Scripts/PublisherASA.cs using Guid(0825dc151bc239742b524ab845c3cf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5553c93f41400bd61903230ec85b40') in 0.002018 seconds
+  Import took 0.007038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.686161 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealitySpatialAwarenessMeshObserverProfile.asset
+  artifactKey: Guid(8be0bcd2117dd214da41ed98f0def2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealitySpatialAwarenessMeshObserverProfile.asset using Guid(8be0bcd2117dd214da41ed98f0def2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e5b180033fd2a2e6b0c139befab359') in 0.007137 seconds
+  Import took 0.013162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealitySpatialAwarenessSystemProfile.asset
+  artifactKey: Guid(97da727944a3d7b4caf42d2273271a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealitySpatialAwarenessSystemProfile.asset using Guid(97da727944a3d7b4caf42d2273271a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5148774280ff1eddf19319ecb1543c7d') in 0.007263 seconds
+  Import took 0.012255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Models/SpatialAwareness/ExampleSpatialMesh.room
+  artifactKey: Guid(2d029f2a1321676428ce89872882c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Models/SpatialAwareness/ExampleSpatialMesh.room using Guid(2d029f2a1321676428ce89872882c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6573527daa79e7df5230e3537dd9269d') in 0.918827 seconds
+  Import took 0.926035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/WorldLocking.Tools/Prefabs/SpacePinVisualizer.prefab
+  artifactKey: Guid(788258058cd9c4a4696cb1bc0c93cc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.Tools/Prefabs/SpacePinVisualizer.prefab using Guid(788258058cd9c4a4696cb1bc0c93cc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bde95616e086002a1c959d28bedf71') in 0.017092 seconds
+  Import took 0.022650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Prefabs/Pointers/ScreenSpaceMousePointer.prefab
+  artifactKey: Guid(840df22ff840d5540b58ca6088afde25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Prefabs/Pointers/ScreenSpaceMousePointer.prefab using Guid(840df22ff840d5540b58ca6088afde25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef9cf2d9f80ea222a8d54f4d5f782e5') in 0.011859 seconds
+  Import took 0.018469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Prefabs/Cursors/ScreenSpaceMouseCursor.prefab
+  artifactKey: Guid(7682ceab055e4ff4eb2f73d245c55eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Prefabs/Cursors/ScreenSpaceMouseCursor.prefab using Guid(7682ceab055e4ff4eb2f73d245c55eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bca333f8bc6b9fe69c9fd2f8a55764') in 0.007761 seconds
+  Import took 0.013415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/MRTK/SDK/Experimental/NonNativeKeyboard/Icons/KeyboardKeyGlyphs_Backspace.png
+  artifactKey: Guid(5eb0b332d494ca84d9c38cf77ba0e12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Experimental/NonNativeKeyboard/Icons/KeyboardKeyGlyphs_Backspace.png using Guid(5eb0b332d494ca84d9c38cf77ba0e12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5dac9d38ae31916805a927f912e759') in 0.029912 seconds
+  Import took 0.035371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2609.062946 seconds.
+  path: Assets/Packages/Microsoft.MixedReality.Unity.FrozenWorld.Engine.1.1.1/FrozenWorldEngine.cs
+  artifactKey: Guid(68a72437829664545863ad514448d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Microsoft.MixedReality.Unity.FrozenWorld.Engine.1.1.1/FrozenWorldEngine.cs using Guid(68a72437829664545863ad514448d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dde536eb3ec4ea6de8f3d09e2bd9d6') in 0.006912 seconds
+  Import took 0.013273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.774775 seconds.
+  path: Assets/Packages/Microsoft.MixedReality.Unity.FrozenWorld.Engine.1.1.1/Microsoft.MixedReality.Unity.FrozenWorld.Engine.asmdef
+  artifactKey: Guid(9cd2f1a2fdbe8564e83cde3db9006749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Microsoft.MixedReality.Unity.FrozenWorld.Engine.1.1.1/Microsoft.MixedReality.Unity.FrozenWorld.Engine.asmdef using Guid(9cd2f1a2fdbe8564e83cde3db9006749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d2531478663cf65f3579cbdc9030ed') in 0.006424 seconds
+  Import took 0.011843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.061898 seconds.
+  path: Assets/WorldLocking.ASA
+  artifactKey: Guid(ffd51f6ba365f064998eac0cdc79688c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA using Guid(ffd51f6ba365f064998eac0cdc79688c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40894dc27cb65123271d1a8ed1d46cec') in 0.005821 seconds
+  Import took 0.011828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038538 seconds.
+  path: Assets/WorldLocking.ASA/Microsoft.MixedReality.WorldLocking.ASA.asmdef
+  artifactKey: Guid(a37ac93d11aa32745baf5ea58a6bb041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA/Microsoft.MixedReality.WorldLocking.ASA.asmdef using Guid(a37ac93d11aa32745baf5ea58a6bb041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170fa97687a02f81cd6d341b818e59c2') in 0.005375 seconds
+  Import took 0.010796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.793574 seconds.
+  path: Assets/WorldLocking.ASA.Examples
+  artifactKey: Guid(f7202d3155772154ca99f7f3b1ee9031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA.Examples using Guid(f7202d3155772154ca99f7f3b1ee9031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64d8189649f79d6e891ae00da96821e') in 0.006173 seconds
+  Import took 0.012279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068756 seconds.
+  path: Assets/WorldLocking.ASA.Examples/Microsoft.MixedReality.WorldLocking.ASA.Examples.asmdef
+  artifactKey: Guid(3fad2220a89bf9c4fb7576337c8b8d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA.Examples/Microsoft.MixedReality.WorldLocking.ASA.Examples.asmdef using Guid(3fad2220a89bf9c4fb7576337c8b8d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689988619161ab5d53d416d0529f338f') in 0.005988 seconds
+  Import took 0.011339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.151256 seconds.
+  path: Assets/WorldLocking.ASA.Examples/Scenes
+  artifactKey: Guid(dc54443f447978c48bfd5f279249bdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA.Examples/Scenes using Guid(dc54443f447978c48bfd5f279249bdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a83d99b59974b3dfc986fef106d0888') in 0.006191 seconds
+  Import took 0.012080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.567984 seconds.
+  path: Assets/WorldLocking.ASA.Examples/Scenes/PinTest.unity
+  artifactKey: Guid(0f61b0a6bb908204090f80949a16d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA.Examples/Scenes/PinTest.unity using Guid(0f61b0a6bb908204090f80949a16d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05001208018718cbbb3615f20d2d969') in 0.007324 seconds
+  Import took 0.012796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.098323 seconds.
+  path: Assets/WorldLocking.ASA.Examples/Scenes/PinTestSofa.unity
+  artifactKey: Guid(cbb1de1abeaa6f149a3b118ab18fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldLocking.ASA.Examples/Scenes/PinTestSofa.unity using Guid(cbb1de1abeaa6f149a3b118ab18fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bde458e676c0257a6fba552069d57a1') in 0.007777 seconds
+  Import took 0.014329 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
