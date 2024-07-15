@@ -1,4 +1,4 @@
-#HybridCo
+# HybridCo
 Real-time virtual interaction between clients using AR and VR headsets at a same time for remote and shared locations.  
 
 - Unity 2020.3
